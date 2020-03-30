@@ -1,5 +1,5 @@
 const initialState = {
-  text: "paa"
+  text: "Initial Value"
 };
 const FirstPage = (state = initialState, action) => {
   switch (action.type) {

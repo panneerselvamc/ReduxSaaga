@@ -1,12 +1,12 @@
 import { takeEvery, takeLatest } from "redux-saga/effects";
 
-function* conA() {
+function* func1() {
   yield {};
 }
-function* conB() {
+function* func2() {
   yield {};
 }
 export const FirstPage = [
-  takeEvery("conA", conA),
-  takeLatest("conB", conB)
+  takeEvery("conA", func1),
+  takeLatest("conB", func2)
 ];

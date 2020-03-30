@@ -2,20 +2,23 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux';
 
  class FirstComponent extends Component {
+     componentDidMount(){
+         console.log(this.props)
+     }
     render() {
         return (
             <div>
                 <input type="text" onChange={(e)=>this.props.save(e.target.value)} />
-                <b>{this.props.content}</b>
+                <h1><b>{this.props.content}</b></h1>
                 
             </div>
         )
     }
 }
 
-const mapStateToProps = obj => {
+const mapStateToProps = state => {
     return {
-     content:obj.content
+     content:state.FirstPage.text
     };
   };
   
