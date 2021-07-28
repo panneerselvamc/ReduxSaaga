@@ -1,0 +1,52 @@
+* {
+  font-size: large;
+}
+
+.bg-color {
+  background-color: #061566;
+}
+.half-width {
+  width: 50vw;
+}
+.content-center {
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+.rocket-icon {
+  height: calc(100% - 50);
+  margin: 50px;
+  width: 60%;
+}
+.rocket-text {
+  top: 24%;
+}
+/* .bold {
+  font-weight: 900;
+} */
+.font-white {
+  color: white;
+}
+.font-black {
+  color: black;
+}
+.border {
+  border: 1px solid #ffbb00;
+  width: 40%;
+  border-radius: 3px;
+}
+.marketplace-btn {
+  margin-top: 30px;
+}
+.main-heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+.sub-heading {
+  font-size: 24px;
+  font-weight: 400 ;
+}
+.btn{
+    font-size: 20px;
+}

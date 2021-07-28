@@ -1,0 +1,9 @@
+.otpContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 24px;
+}
+
+.otpContainer > div > div > input {
+    width:50px !important
+}

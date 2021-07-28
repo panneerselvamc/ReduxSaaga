@@ -10,6 +10,7 @@ import { connect } from 'react-redux';
             <div>
                 <input type="text" onChange={(e)=>this.props.save(e.target.value)} />
                 <h1><b>{this.props.content}</b></h1>
+                <h3>hello</h3>
                 
             </div>
         )
