@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1921.348" height="539.74" viewBox="0 0 1921.348 539.74">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y1="1.108" y2="-.06" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#061566"/>
+            <stop offset="1" stop-color="#04083f"/>
+        </linearGradient>
+        <clipPath id="clip-path">
+            <path id="Path_8442" fill="#031749" d="M1990 2052.416s428.318-199.9 964 0 957.348-72.023 957.348-72.023v522.918H1990z" transform="translate(-1991.348 7)"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:rgba(58,42,132,.19)}
+        </style>
+    </defs>
+    <g id="Mask_Group_1" clip-path="url(#clip-path)" transform="translate(1.348 -1970.571)">
+        <g id="Group_1490">
+            <path id="Path_8441" fill="url(#linear-gradient)" d="M1990 2052.416s428.318-199.9 964 0 957.348-72.023 957.348-72.023v591.557H1990z" transform="translate(-1991.348 7)"/>
+            <rect id="Rectangle_1122" width="540.093" height="540.093" class="cls-4" rx="39" transform="rotate(45 -1374.667 2591.868)"/>
+            <rect id="Rectangle_1124" width="646.093" height="646.093" class="cls-4" rx="39" transform="rotate(45 -1657.64 1067.177)"/>
+            <rect id="Rectangle_1123" width="594.305" height="594.305" class="cls-4" rx="39" transform="rotate(45 -981.43 2922.743)"/>
+        </g>
+    </g>
+</svg>

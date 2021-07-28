@@ -1,0 +1,69 @@
+.landing1-wrapper { /* TODO: use css modules so that wrapping class can be avoided */
+}
+
+.landing1-wrapper .intro svg {
+    display: block;
+    height: auto !important;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.landing1-wrapper .offerings svg {
+    display: block;
+    height: auto !important;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.landing1-wrapper .features .graphic {
+    display: block;
+    height: auto !important;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.landing1-wrapper .sign-up svg {
+    display: block;
+    height: auto !important;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.landing1-wrapper video {
+    max-width: 978px;
+    width: 100%;
+}
+
+.landing1-wrapper .flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.landing1-wrapper .flex-start-center {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.landing1-wrapper .flex-end-center {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.landing1-wrapper .inline-block {
+    display: inline-block;
+}
+
+.landing1-wrapper .landing1-cursor {
+    animation: blinker 0.3s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
